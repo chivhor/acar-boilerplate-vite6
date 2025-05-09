@@ -1,0 +1,24 @@
+{
+  "app": {
+    "name": "ACAR Boilerplate",
+    "description": "A boilerplate for the Accounting and Auditing Regulator application."
+  },
+  "brand": {
+    "name": "Accounting and Auditing Regulator",
+    "abbreviation": "ACAR"
+  },
+  "error": {
+    "notFound": {
+      "title": "404 - Page Not Found",
+      "description": "Sorry, the page you are looking for does not exist."
+    },
+    "serverError": {
+      "title": "500 - Server Error",
+      "description": "Sorry, there was an error on our end. Please try again later."
+    },
+    "unauthorized": {
+      "title": "401 - Unauthorized",
+      "description": "Sorry, you are not authorized to access this page."
+    }
+  }
+}

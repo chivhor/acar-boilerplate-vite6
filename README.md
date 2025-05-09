@@ -1,12 +1,92 @@
-# React + Vite
+# Acar Boilerplate – Vite 6 + React 19 + Tailwind CSS + ShadCN + i18n
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and minimal boilerplate built with the latest frontend technologies to speed up your React development. Pre-configured with **Vite 6**, **React 19**, **Tailwind CSS**, **ShadCN UI**, and **i18n** (internationalization) for a seamless DX (Developer Experience).
 
-Currently, two official plugins are available:
+> 🔗 Repository: [github.com/chivhor/acar-boilerplate-vite6](https://github.com/chivhor/acar-boilerplate-vite6)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🧰 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚛️ **React 19** – Latest features like `useOptimistic`, Actions, and more
+- ⚡ **Vite 6** – Blazing-fast development and optimized builds
+- 💨 **Tailwind CSS** – Utility-first styling with dark mode support
+- 🎨 **ShadCN UI** – Accessible and themeable UI components
+- 🌐 **i18n** – Multi-language support using `react-i18next`
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/chivhor/acar-boilerplate-vite6.git
+cd acar-boilerplate-vite6
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+# or
+yarn
+```
+
+### 3. Run the development server
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+---
+
+## 📦 Build for Production
+
+```bash
+npm run build
+# or
+yarn build
+```
+
+### 🧪 Preview Production Build
+
+```bash
+npm run preview
+# or
+yarn preview
+```
+
+---
+
+## 🌍 Internationalization (i18n)
+
+This project uses [`react-i18next`](https://react.i18next.com/) for multilingual support.
+
+### Features:
+
+- Language switcher
+- Translation JSON files per language
+- Easy to add/remove languages
+
+---
+
+## 📚 Useful Links
+
+- [React 19 Documentation](https://react.dev/blog)
+- [Vite Documentation](https://vitejs.dev/)
+- [Tailwind CSS Docs](https://tailwindcss.com/docs)
+- [ShadCN UI Docs](https://ui.shadcn.dev/docs)
+- [react-i18next Docs](https://react.i18next.com/)
+
+---
+
+## 📝 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+Made with ❤️ by [@chivhor](https://github.com/chivhor)
